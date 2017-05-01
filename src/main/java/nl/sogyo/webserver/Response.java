@@ -1,6 +1,8 @@
 package nl.sogyo.webserver;
 
-import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.ZonedDateTime;
+import java.util.Date;
 
 public interface Response {
     HttpStatusCode getStatus();
